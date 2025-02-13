@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		123444A22D5D0A100006F5F5 /* HobbiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123444A12D5D0A100006F5F5 /* HobbiesView.swift */; };
+		123444A42D5D0A3E0006F5F5 /* HobbyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123444A32D5D0A330006F5F5 /* HobbyModel.swift */; };
+		123444A62D5D0CE70006F5F5 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123444A52D5D0CE70006F5F5 /* GoalsView.swift */; };
+		123444A82D5D100C0006F5F5 /* Chihiro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 123444A72D5D100C0006F5F5 /* Chihiro.mp3 */; };
+		123444AA2D5D10110006F5F5 /* Sweater Weather.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 123444A92D5D10110006F5F5 /* Sweater Weather.mp3 */; };
+		123444AC2D5D10310006F5F5 /* Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 123444AB2D5D10310006F5F5 /* Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming.mp3 */; };
 		126360602D51468C0073AE72 /* SelfIntroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1263605F2D51468C0073AE72 /* SelfIntroApp.swift */; };
 		126360622D51468C0073AE72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126360612D51468C0073AE72 /* ContentView.swift */; };
 		126360642D51468E0073AE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126360632D51468E0073AE72 /* Assets.xcassets */; };
@@ -40,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		123444A12D5D0A100006F5F5 /* HobbiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbiesView.swift; sourceTree = "<group>"; };
+		123444A32D5D0A330006F5F5 /* HobbyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HobbyModel.swift; sourceTree = "<group>"; };
+		123444A52D5D0CE70006F5F5 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		123444A72D5D100C0006F5F5 /* Chihiro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chihiro.mp3; sourceTree = "<group>"; };
+		123444A92D5D10110006F5F5 /* Sweater Weather.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sweater Weather.mp3"; sourceTree = "<group>"; };
+		123444AB2D5D10310006F5F5 /* Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming.mp3"; sourceTree = "<group>"; };
 		1263605C2D51468C0073AE72 /* SelfIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1263605F2D51468C0073AE72 /* SelfIntroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroApp.swift; sourceTree = "<group>"; };
 		126360612D51468C0073AE72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		123444AD2D5D11360006F5F5 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				123444A72D5D100C0006F5F5 /* Chihiro.mp3 */,
+				123444AB2D5D10310006F5F5 /* Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming.mp3 */,
+				123444A92D5D10110006F5F5 /* Sweater Weather.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		126360532D51468C0073AE72 = {
 			isa = PBXGroup;
 			children = (
@@ -108,8 +130,9 @@
 			children = (
 				1263608C2D514D670073AE72 /* View */,
 				126360892D5146BE0073AE72 /* Model */,
-				1263605F2D51468C0073AE72 /* SelfIntroApp.swift */,
+				123444AD2D5D11360006F5F5 /* Sounds */,
 				126360612D51468C0073AE72 /* ContentView.swift */,
+				1263605F2D51468C0073AE72 /* SelfIntroApp.swift */,
 				126360632D51468E0073AE72 /* Assets.xcassets */,
 				126360652D51468E0073AE72 /* Preview Content */,
 			);
@@ -144,6 +167,7 @@
 		126360892D5146BE0073AE72 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				123444A32D5D0A330006F5F5 /* HobbyModel.swift */,
 				1263608A2D5146D70073AE72 /* DataModel.swift */,
 			);
 			path = Model;
@@ -157,6 +181,8 @@
 				12DD36212D54AA5000F055F3 /* Profile.swift */,
 				12DD36232D54B20300F055F3 /* HomeView.swift */,
 				12DD36252D54B39B00F055F3 /* PostGripView.swift */,
+				123444A12D5D0A100006F5F5 /* HobbiesView.swift */,
+				123444A52D5D0CE70006F5F5 /* GoalsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,8 +291,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123444AA2D5D10110006F5F5 /* Sweater Weather.mp3 in Resources */,
+				123444A82D5D100C0006F5F5 /* Chihiro.mp3 in Resources */,
 				126360672D51468E0073AE72 /* Preview Assets.xcassets in Resources */,
 				126360642D51468E0073AE72 /* Assets.xcassets in Resources */,
+				123444AC2D5D10310006F5F5 /* Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +324,10 @@
 				126360622D51468C0073AE72 /* ContentView.swift in Sources */,
 				12DD36242D54B20300F055F3 /* HomeView.swift in Sources */,
 				12DD36222D54AA5000F055F3 /* Profile.swift in Sources */,
+				123444A42D5D0A3E0006F5F5 /* HobbyModel.swift in Sources */,
 				1263608B2D5146D70073AE72 /* DataModel.swift in Sources */,
+				123444A22D5D0A100006F5F5 /* HobbiesView.swift in Sources */,
+				123444A62D5D0CE70006F5F5 /* GoalsView.swift in Sources */,
 				126360902D5150CE0073AE72 /* Trend.swift in Sources */,
 				126360602D51468C0073AE72 /* SelfIntroApp.swift in Sources */,
 				1263608E2D514D950073AE72 /* Post.swift in Sources */,

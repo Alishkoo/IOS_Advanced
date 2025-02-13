@@ -32,6 +32,13 @@ struct Profile: View {
                             .offset(y:3)
                     }
                 }
+               
+                VStack{
+                    Text("20 years old")
+                    Text("Almaty")
+                }.bold()
+                
+                Divider()
                 HStack(spacing: 60){
                     info(postCount: "10", title: "Posts")
                     info(postCount: "154K", title: "Followers")

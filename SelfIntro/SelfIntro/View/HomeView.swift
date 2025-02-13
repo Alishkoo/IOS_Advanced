@@ -48,7 +48,7 @@ struct HomeView: View {
         }
     }
 }
-//
-//#Preview {
-//    HomeView()
-//}
+
+#Preview {
+    HomeView()
+}
