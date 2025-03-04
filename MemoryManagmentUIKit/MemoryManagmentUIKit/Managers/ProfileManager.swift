@@ -16,50 +16,52 @@ protocol ProfileUpdateDelegate: AnyObject {
     func profileLoadingError(_ error: Error)
 }
 
-
 class ProfileManager {
     var activeProfiles: [String: UserProfile]
-    weak var delegate: ProfileUpdateDelegate? // нужна слабая ссылка так как profileManagerу не всегда нужен делегат для существования
+    weak var delegate: ProfileUpdateDelegate?  // нужна слабая ссылка так как profileManagerу не всегда нужен делегат для существования
     var onProfileUpdate: ((UserProfile) -> Void)?
-    
+
     init(delegate: ProfileUpdateDelegate? = nil) {
-            self.delegate = delegate
+        self.delegate = delegate
         self.activeProfiles = [:]
     }
-    
-    func loadProfile(id: String, completion: @escaping (Result<UserProfile, Error>) -> Void){
-        
+
+    func loadProfile(
+        id: String, completion: @escaping (Result<UserProfile, Error>) -> Void
+    ) {
+
         //тут тоесть задачи стоят в очереди
         //к примеру первая задача пришла она и первая выполнилась
         //и мы можем присылать задачи по разному к примеру, DispatchQueue в нем есть global и main
         //main основной поток в котором выполняются обычно там updateUI
         //global это background поток в котором выполняются второстепенные задачи к примеру api запросы
-        
+
         DispatchQueue.global().async {
             // Симуляция задержки загрузки профиля
             sleep(1)
-            
+
             if let profile = self.activeProfiles[id] {
-                DispatchQueue.main.async {
+                DispatchQueue.main.async { [weak self] in
                     completion(.success(profile))
-                    self.delegate?.profileDidUpdate(profile)
-                    self.onProfileUpdate?(profile)
+                    self?.delegate?.profileDidUpdate(profile)
+                    self?.onProfileUpdate?(profile)
                 }
             } else {
-                let error = NSError(domain: "ProfileError", code: 404, userInfo: [NSLocalizedDescriptionKey: "Profile not found"])
-                DispatchQueue.main.async {
+                let error = NSError(
+                    domain: "ProfileError", code: 404,
+                    userInfo: [NSLocalizedDescriptionKey: "Profile not found"])
+                DispatchQueue.main.async { [weak self] in
                     completion(.failure(error))
-                    self.delegate?.profileLoadingError(error)
+                    self?.delegate?.profileLoadingError(error)
                 }
             }
         }
     }
-    
-    func updateProfile(_ profile: UserProfile){
+
+    func updateProfile(_ profile: UserProfile) {
         activeProfiles[profile.id.uuidString] = profile
         onProfileUpdate?(profile)
         delegate?.profileDidUpdate(profile)
-        
-        
+
     }
 }

@@ -29,6 +29,9 @@ class UserProfileViewController: UIViewController, ProfileUpdateDelegate {
         super.viewDidLoad()
         setupUI()
         setupProfileManager()
+        profileManager?.onProfileUpdate = { [weak self] updatedProfile in
+            self?.view.backgroundColor = UIColor.getRandomColor()
+        }
     }
     
     func setupUI() {
@@ -122,9 +125,6 @@ class UserProfileViewController: UIViewController, ProfileUpdateDelegate {
         imageLoader?.loadImage(url: URL(string: "https://via.assets.so/game.png?id=1&q=95&w=360&h=360&fit=fill")!)
     }
     
-    
-    
-    
     func profileDidUpdate(_ profile: UserProfile) {
         updateUI(with: profile)
     }
@@ -142,5 +142,11 @@ extension UserProfileViewController: ImageLoaderDelegate {
 
     func imageLoader(_ loader: ImageLoader, didFailWith error: Error) {
         print("Error loading image: \(error.localizedDescription)")
+    }
+}
+
+extension UIColor {
+    static func getRandomColor() -> UIColor {
+        return UIColor(red: CGFloat.random(in: 0...1), green: CGFloat.random(in: 0...1), blue: CGFloat.random(in: 0...1), alpha: 1)
     }
 }
