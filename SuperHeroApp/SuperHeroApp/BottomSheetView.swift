@@ -8,11 +8,35 @@
 import SwiftUI
 
 struct BottomSheetView: View {
+    @ObservedObject var viewModel: SuperHeroViewModel
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            ForEach(viewModel.favouriteHeroes, id: \.id){ hero in
+                Text("\(hero.name ?? "Does not have a name")")
+                    .font(.headline)
+                    .padding()
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+            
+            Spacer()
+            
+            Button("Close") {
+                dismiss()
+            }
+            .font(.headline)
+            .padding()
+            .background(Color.red)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+        }
+        .frame(maxWidth: .infinity)
+        .padding()
     }
 }
 
 #Preview {
-    BottomSheetView()
+    var viewModel = SuperHeroViewModel()
+    BottomSheetView(viewModel: viewModel)
 }

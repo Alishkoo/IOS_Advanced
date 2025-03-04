@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  SuperHeroApp
+//  HeroRandomizer
 //
-//  Created by Alibek Baisholanov on 01.03.2025.
+//  Created by Arman Myrzakanurov on 28.02.2025.
 //
 
 import UIKit
@@ -13,13 +13,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
 
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+    func scene(
+        _ scene: UIScene,
+        willConnectTo session: UISceneSession,
+        options connectionOptions: UIScene.ConnectionOptions
+    ) {
+        guard let windowScene = (scene as? UIWindowScene) else {
+            return
+        }
+
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UIHostingController(rootView: MainView(viewModel: SuperHeroViewModel()))
+        let viewModel = ViewModel()
+        let contentView = ContentView(viewModel: viewModel)
+        window?.rootViewController = UIHostingController(
+            rootView: contentView
+        )
+
         window?.makeKeyAndVisible()
-        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
