@@ -48,7 +48,7 @@ final class SuperHeroViewModel : ObservableObject {
         }
     }
     
-    func addToFavourites() async {
+    func addToFavourites() {
         guard let hero = hero else {return}
         favouriteHeroes.append(hero)
     }

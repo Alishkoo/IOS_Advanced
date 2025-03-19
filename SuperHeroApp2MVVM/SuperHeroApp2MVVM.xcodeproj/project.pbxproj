@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1213B38F2D85B21E00511BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1213B3702D85B21D00511BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1213B3772D85B21D00511BA0;
+			remoteInfo = SuperHeroApp2MVVM;
+		};
+		1213B3992D85B21E00511BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1213B3702D85B21D00511BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1213B3772D85B21D00511BA0;
+			remoteInfo = SuperHeroApp2MVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1213B3782D85B21D00511BA0 /* SuperHeroApp2MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroApp2MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1213B38E2D85B21E00511BA0 /* SuperHeroApp2MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperHeroApp2MVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1213B3982D85B21E00511BA0 /* SuperHeroApp2MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperHeroApp2MVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1213B3A02D85B21E00511BA0 /* Exceptions for "SuperHeroApp2MVVM" folder in "SuperHeroApp2MVVM" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1213B3772D85B21D00511BA0 /* SuperHeroApp2MVVM */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1213B37A2D85B21D00511BA0 /* SuperHeroApp2MVVM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1213B3A02D85B21E00511BA0 /* Exceptions for "SuperHeroApp2MVVM" folder in "SuperHeroApp2MVVM" target */,
+			);
+			path = SuperHeroApp2MVVM;
+			sourceTree = "<group>";
+		};
+		1213B3912D85B21E00511BA0 /* SuperHeroApp2MVVMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SuperHeroApp2MVVMTests;
+			sourceTree = "<group>";
+		};
+		1213B39B2D85B21E00511BA0 /* SuperHeroApp2MVVMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SuperHeroApp2MVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1213B3752D85B21D00511BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213B38B2D85B21E00511BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213B3952D85B21E00511BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1213B36F2D85B21D00511BA0 = {
+			isa = PBXGroup;
+			children = (
+				1213B37A2D85B21D00511BA0 /* SuperHeroApp2MVVM */,
+				1213B3912D85B21E00511BA0 /* SuperHeroApp2MVVMTests */,
+				1213B39B2D85B21E00511BA0 /* SuperHeroApp2MVVMUITests */,
+				1213B3792D85B21D00511BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1213B3792D85B21D00511BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1213B3782D85B21D00511BA0 /* SuperHeroApp2MVVM.app */,
+				1213B38E2D85B21E00511BA0 /* SuperHeroApp2MVVMTests.xctest */,
+				1213B3982D85B21E00511BA0 /* SuperHeroApp2MVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1213B3772D85B21D00511BA0 /* SuperHeroApp2MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1213B3A12D85B21E00511BA0 /* Build configuration list for PBXNativeTarget "SuperHeroApp2MVVM" */;
+			buildPhases = (
+				1213B3742D85B21D00511BA0 /* Sources */,
+				1213B3752D85B21D00511BA0 /* Frameworks */,
+				1213B3762D85B21D00511BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1213B37A2D85B21D00511BA0 /* SuperHeroApp2MVVM */,
+			);
+			name = SuperHeroApp2MVVM;
+			packageProductDependencies = (
+			);
+			productName = SuperHeroApp2MVVM;
+			productReference = 1213B3782D85B21D00511BA0 /* SuperHeroApp2MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1213B38D2D85B21E00511BA0 /* SuperHeroApp2MVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1213B3A62D85B21E00511BA0 /* Build configuration list for PBXNativeTarget "SuperHeroApp2MVVMTests" */;
+			buildPhases = (
+				1213B38A2D85B21E00511BA0 /* Sources */,
+				1213B38B2D85B21E00511BA0 /* Frameworks */,
+				1213B38C2D85B21E00511BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1213B3902D85B21E00511BA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1213B3912D85B21E00511BA0 /* SuperHeroApp2MVVMTests */,
+			);
+			name = SuperHeroApp2MVVMTests;
+			packageProductDependencies = (
+			);
+			productName = SuperHeroApp2MVVMTests;
+			productReference = 1213B38E2D85B21E00511BA0 /* SuperHeroApp2MVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1213B3972D85B21E00511BA0 /* SuperHeroApp2MVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1213B3A92D85B21E00511BA0 /* Build configuration list for PBXNativeTarget "SuperHeroApp2MVVMUITests" */;
+			buildPhases = (
+				1213B3942D85B21E00511BA0 /* Sources */,
+				1213B3952D85B21E00511BA0 /* Frameworks */,
+				1213B3962D85B21E00511BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1213B39A2D85B21E00511BA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1213B39B2D85B21E00511BA0 /* SuperHeroApp2MVVMUITests */,
+			);
+			name = SuperHeroApp2MVVMUITests;
+			packageProductDependencies = (
+			);
+			productName = SuperHeroApp2MVVMUITests;
+			productReference = 1213B3982D85B21E00511BA0 /* SuperHeroApp2MVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1213B3702D85B21D00511BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1213B3772D85B21D00511BA0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1213B38D2D85B21E00511BA0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1213B3772D85B21D00511BA0;
+					};
+					1213B3972D85B21E00511BA0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1213B3772D85B21D00511BA0;
+					};
+				};
+			};
+			buildConfigurationList = 1213B3732D85B21D00511BA0 /* Build configuration list for PBXProject "SuperHeroApp2MVVM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1213B36F2D85B21D00511BA0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1213B3792D85B21D00511BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1213B3772D85B21D00511BA0 /* SuperHeroApp2MVVM */,
+				1213B38D2D85B21E00511BA0 /* SuperHeroApp2MVVMTests */,
+				1213B3972D85B21E00511BA0 /* SuperHeroApp2MVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1213B3762D85B21D00511BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213B38C2D85B21E00511BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213B3962D85B21E00511BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1213B3742D85B21D00511BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213B38A2D85B21E00511BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1213B3942D85B21E00511BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1213B3902D85B21E00511BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1213B3772D85B21D00511BA0 /* SuperHeroApp2MVVM */;
+			targetProxy = 1213B38F2D85B21E00511BA0 /* PBXContainerItemProxy */;
+		};
+		1213B39A2D85B21E00511BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1213B3772D85B21D00511BA0 /* SuperHeroApp2MVVM */;
+			targetProxy = 1213B3992D85B21E00511BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1213B3A22D85B21E00511BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3383BZV24G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperHeroApp2MVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaisholanov.SuperHeroApp2MVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1213B3A32D85B21E00511BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3383BZV24G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SuperHeroApp2MVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaisholanov.SuperHeroApp2MVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1213B3A42D85B21E00511BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1213B3A52D85B21E00511BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1213B3A72D85B21E00511BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3383BZV24G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaisholanov.SuperHeroApp2MVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperHeroApp2MVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperHeroApp2MVVM";
+			};
+			name = Debug;
+		};
+		1213B3A82D85B21E00511BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3383BZV24G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaisholanov.SuperHeroApp2MVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperHeroApp2MVVM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SuperHeroApp2MVVM";
+			};
+			name = Release;
+		};
+		1213B3AA2D85B21E00511BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3383BZV24G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaisholanov.SuperHeroApp2MVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperHeroApp2MVVM;
+			};
+			name = Debug;
+		};
+		1213B3AB2D85B21E00511BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3383BZV24G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaisholanov.SuperHeroApp2MVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SuperHeroApp2MVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1213B3732D85B21D00511BA0 /* Build configuration list for PBXProject "SuperHeroApp2MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213B3A42D85B21E00511BA0 /* Debug */,
+				1213B3A52D85B21E00511BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1213B3A12D85B21E00511BA0 /* Build configuration list for PBXNativeTarget "SuperHeroApp2MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213B3A22D85B21E00511BA0 /* Debug */,
+				1213B3A32D85B21E00511BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1213B3A62D85B21E00511BA0 /* Build configuration list for PBXNativeTarget "SuperHeroApp2MVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213B3A72D85B21E00511BA0 /* Debug */,
+				1213B3A82D85B21E00511BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1213B3A92D85B21E00511BA0 /* Build configuration list for PBXNativeTarget "SuperHeroApp2MVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1213B3AA2D85B21E00511BA0 /* Debug */,
+				1213B3AB2D85B21E00511BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1213B3702D85B21D00511BA0 /* Project object */;
+}
